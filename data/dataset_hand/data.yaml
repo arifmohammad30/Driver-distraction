@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+
+names: ['Left Hand', 'Right Hand', 'Steering Wheel', 'Radio']
+
+roboflow:
+  workspace: distracteddriver
+  project: master_final
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/distracteddriver/master_final/dataset/11
